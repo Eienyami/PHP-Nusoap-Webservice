@@ -1,0 +1,62 @@
+body {
+	background: black;
+	color:white;
+}
+form {
+	text-align: center;
+}
+form input[type='text'],input[type='password']{
+	display: inline-block;
+	width:95%;
+	margin:10px auto;
+	padding:10px;
+	border-radius: 	5px;
+	font-size: 20px;
+	color: #444;
+	border: 1px solid #ddd;
+}
+.wrapper {
+	margin:20px 200px;
+}
+legend {
+	font-size:30px;
+	color:white
+	;
+}
+form input[type='submit'] {
+	background: green;
+	width:97.5%;
+	font-size:20px;
+	color:white;
+	margin-top:10px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	padding:10px;
+}
+form input[type='submit']:hover {
+	background-color: dodgerblue;
+	color:#fff;
+	cursor: pointer;
+}
+fieldset {
+	border-radius: 3px;
+	border:1px solid #ccc;
+}
+table {
+	display: inline-block;
+	margin:10px auto;
+	padding:10px;
+	border-radius: 	5px;
+	font-size: 20px;
+	color: #444;
+	border: 1px solid #ddd;
+	border-color: white
+}
+tr{
+	background-color: white;
+	border-color: white;
+}
+td{
+	background-color: white;
+	border-color: white;
+}
